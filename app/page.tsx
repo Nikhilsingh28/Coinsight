@@ -24,7 +24,7 @@ export default function Home() {
           <p className="mb-4 text-gray-300">&copy; {new Date().getFullYear()} Nikhil Singh. All rights reserved.</p>
           <div className="flex justify-center space-x-8">
             <a 
-              href="mailto:nikhil@example.com" 
+              href="mailto:niksingh2003@gmail.com" 
               aria-label="Email" 
               target="_blank" 
               className="flex items-center space-x-2 text-gray-300 hover:text-blue-400 transition-colors duration-200"
@@ -33,7 +33,7 @@ export default function Home() {
               <span>Email</span>
             </a>
             <a 
-              href="https://github.com/nikhil" 
+              href="https://github.com/Nikhilsingh28" 
               aria-label="GitHub" 
               target="_blank" 
               className="flex items-center space-x-2 text-gray-300 hover:text-blue-400 transition-colors duration-200"
@@ -42,7 +42,7 @@ export default function Home() {
               <span>GitHub</span>
             </a>
             <a 
-              href="https://linkedin.com/in/nikhil" 
+              href="https://www.linkedin.com/in/nikhil-singh-2810rnc/" 
               aria-label="LinkedIn" 
               target="_blank" 
               className="flex items-center space-x-2 text-gray-300 hover:text-blue-400 transition-colors duration-200"
