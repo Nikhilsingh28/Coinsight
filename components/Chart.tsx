@@ -6,7 +6,7 @@ import ChartError from "./ChartError"
 import ChartLoading from "./ChartLoading"
 import { ChartContainer, ChartTooltip } from "./ui/chart"
 import { Bar, BarChart, CartesianGrid, Line, LineChart, ResponsiveContainer, XAxis, YAxis } from "recharts"
-import { formatPercentage, formatPrice } from "@/lib/format"
+import { formatPercentage, formatPrice } from "../lib/format"
 
 interface ChartData {
     timestamp: number
