@@ -1,5 +1,5 @@
-import CryptoDashboard from "@/components/CryptoDasboard";
-import ParticlesBackground from "@/components/ParticlesBackground";
+import CryptoDashboard from "../components/CryptoDashboard";
+import ParticlesBackground from "../components/ParticlesBackground";
 import { Mail, Github, Linkedin } from "lucide-react";
 
 export default function Home() {
