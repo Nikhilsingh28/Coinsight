@@ -1,24 +1,12 @@
 "use client"
 
-import { useCallback } from "react";
 import Particles from "@tsparticles/react";
-import { loadSlim } from "@tsparticles/slim";
-import type { Container, Engine } from "@tsparticles/engine";
 
 const ParticlesBackground = () => {
-  const particlesInit = useCallback(async (engine: Engine) => {
-    await loadSlim(engine);
-  }, []);
-
-  const particlesLoaded = useCallback(async (container: Container | undefined) => {
-    console.log(container);
-  }, []);
 
   return (
     <Particles
       id="tsparticles"
-      init={particlesInit}
-      loaded={particlesLoaded}
       options={{
         background: {
           color: {
@@ -68,7 +56,6 @@ const ParticlesBackground = () => {
           number: {
             density: {
               enable: true,
-              area: 800,
             },
             value: 100,
           },
@@ -85,11 +72,11 @@ const ParticlesBackground = () => {
         detectRetina: true,
         style: {
           position: "fixed",
-          top: 0,
-          left: 0,
+          top: "0",
+          left: "0",
           width: "100%",
           height: "100vh",
-          zIndex: 0,
+          zIndex: "0",
           pointerEvents: "none",
         },
       }}
